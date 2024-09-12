@@ -1,7 +1,12 @@
-#!/usr/bin/node
-
+/**
+ * Contains the miscellaneous route handlers.
+ * @author Bezaleel Olakunori <https://github.com/B3zaleel>
+ */
 class AppController {
-	static getHomepage(req, res) {
-		return res.send('Hello Holberton school!')
+	static getHomepage(request, response) {
+	  response.status(200).send('Hello Holberton School!');
 	}
-}
+  }
+  
+  export default AppController;
+  module.exports = AppController;
