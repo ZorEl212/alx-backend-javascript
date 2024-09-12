@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 process.stdin.setEncoding('utf-8');
-process.stdout.write('Please type your name:\n');
+process.stdout.write('Welcome to Holberton School, what is your name?:\n');
 
 process.stdin.on('readable', () => {
 	let chunk = process.stdin.read();
