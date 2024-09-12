@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const Utils = require('./utils');
 
 const sendPaymentRequestToApi = (totalAmount, totalShipping) => {

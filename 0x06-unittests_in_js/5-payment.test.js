@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 const sinon = require('sinon');
 const { expect } = require('chai');
 const sendPaymentRequestToApi = require('./5-payment');

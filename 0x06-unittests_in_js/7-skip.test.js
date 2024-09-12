@@ -1,3 +1,5 @@
+#!/usr/bin/env mocha --require @babel/register
+
 const { expect } = require('chai');
 
 describe('Testing numbers', () => {
